@@ -1,0 +1,69 @@
+.section-padding {
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+[href$=".pdf"]{
+	
+	color: white;
+}
+[href$=".pdf"]:before {
+    width:32px;
+    height:32px;
+   background:url('http://wwwimages.adobe.com/content/dam/acom/en/legal/images/badges/Adobe_PDF_file_icon_32x32.png');
+    display:inline-block;
+    content:' '; 
+}
+
+a[href$=".pdf"]:after { 
+	content: " (PDF)"; 
+	
+}
+#works h2{
+	text-align: center;
+	padding-bottom: 75px;
+}
+#works h4{
+	padding-top: 20px;
+}
+#aboutMe img{
+	position: relative;	
+}
+
+#contact{
+	padding-top: 150px;
+}
+
+.btn-circle.btn-sm { 
+	width: 30px; 
+	height: 30px; 
+	padding: 6px 0px; 
+	border-radius: 15px; 
+	font-size: 8px; 
+	text-align: center; 
+} 
+.btn-circle.btn-md { 
+	width: 50px; 
+	height: 50px; 
+	padding: 7px 10px; 
+	border-radius: 25px; 
+	font-size: 10px; 
+	text-align: center;
+}
+.card{
+	background-color: transparent;
+}
+.TextWrap{
+float: right;
+margin: 10px 20px;
+}
+	
+#aboutMe{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h1, h2{
+	font-family: "Aclonica";
+}
+p{
+	font-family: "Open+Sans";
+}
