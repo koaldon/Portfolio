@@ -67,3 +67,23 @@ h1, h2{
 p{
 	font-family: "Open+Sans";
 }
+
+.img-rounded{
+	width: 75%;
+}
+
+#csscreature {
+	width:50%;
+}
+#storefront{
+	height: 200px;
+	width: 300px;
+}
+#IAF{
+	height:200px;
+	width:300px;
+}
+#pokemon{
+	height: 200px;
+	width:350px;
+}
